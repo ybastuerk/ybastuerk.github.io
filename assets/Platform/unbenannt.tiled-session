@@ -1,0 +1,122 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Tilemaps/karte.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "Alle Dateien (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "#Coin_06": {
+            "scaleInEditor": 0.25
+        },
+        "#Neues tileset1": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.0625,
+            "scaleInEditor": 0.0625
+        },
+        "#Tileset": {
+            "dynamicWrapping": false
+        },
+        "#coins": {
+            "dynamicWrapping": true,
+            "scaleInEditor": 1
+        },
+        "#neues tileset typeshiii": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "#spikes": {
+            "dynamicWrapping": true
+        },
+        "#tileset2": {
+            "dynamicWrapping": true,
+            "scaleInEditor": 1
+        },
+        "C:/Users/umurb/Downloads/unbenannt.tmx": {
+            "scale": 0.36088867187499996,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1511.5464754431066,
+                "y": 465.51752130970107
+            }
+        },
+        "C:/Users/umurb/Downloads/unbenannt.tmx#Tileset": {
+            "scaleInDock": 1
+        },
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Karte.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1394,
+                "y": 1680
+            }
+        },
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Karte.tmx#neues tileset typeshiii": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.25,
+            "scaleInEditor": 0.125
+        },
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Karte.tmx#tileset3": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.33,
+            "scaleInEditor": 0.5
+        },
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Karte.tmx#tileset69": {
+            "dynamicWrapping": true
+        },
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Tilemaps/karte.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 930.3030303030304,
+                "y": 378.78787878787887
+            }
+        },
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Tilemaps/karte.tmx#Tileset": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Tilemaps/karte.tmx#coin": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Tilemaps/karte.tmx#spikes": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.33
+        },
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Tilemaps/tileset1.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.125
+        }
+    },
+    "last.exportedFilePath": "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Tilemaps",
+    "last.imagePath": "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Tilemaps",
+    "map.height": 24,
+    "map.lastUsedExportFilter": "Alle Dateien (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.width": 32,
+    "openFiles": [
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Tilemaps/karte.tmx"
+    ],
+    "project": "unbenannt.tiled-project",
+    "recentFiles": [
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Tilemaps/karte.tmx",
+        "C:/Users/umurb/Downloads/unbenannt.tmx",
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Karte.tmx",
+        "C:/Users/umurb/OneDrive/Desktop/highscore run/public/assets/Tilemaps/tileset1.tsx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    },
+    "tileset.type": 0
+}

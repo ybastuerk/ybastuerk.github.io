@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="64" height="24" tilewidth="128" tileheight="128" infinite="1" nextlayerid="10" nextobjectid="358">
+ <editorsettings>
+  <export target="Tilemaps/Karte.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="neues tileset typeshiii" tilewidth="480" tileheight="480" tilecount="36" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="Platform/Wooden_Box.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="Platform/Apple.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="Platform/Brick_01.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="Platform/Brick_02.png"/>
+  </tile>
+  <tile id="4">
+   <image width="64" height="64" source="Platform/Bridge_01.png"/>
+  </tile>
+  <tile id="5">
+   <image width="64" height="64" source="Platform/Bridge_02.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="Platform/Coin_01.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="Platform/Decor_Brick.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="Platform/Decor_Plant.png"/>
+  </tile>
+  <tile id="9">
+   <image width="480" height="480" source="Platform/Decor_Ruins_01.png"/>
+  </tile>
+  <tile id="10">
+   <image width="480" height="480" source="Platform/Decor_Ruins_02.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="Platform/Diamond.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="Platform/Fence.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="64" source="Platform/Grass_01.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="128" source="Platform/Ground_01.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="Platform/Ground_02.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="128" source="Platform/Ground_03.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="Platform/Ground_04.png"/>
+  </tile>
+  <tile id="18">
+   <image width="128" height="128" source="Platform/Ground_05.png"/>
+  </tile>
+  <tile id="19">
+   <image width="128" height="128" source="Platform/Ground_06.png"/>
+  </tile>
+  <tile id="20">
+   <image width="128" height="128" source="Platform/Ground_07.png"/>
+  </tile>
+  <tile id="21">
+   <image width="128" height="128" source="Platform/Ground_08.png"/>
+  </tile>
+  <tile id="22">
+   <image width="128" height="128" source="Platform/Ground_09.png"/>
+  </tile>
+  <tile id="23">
+   <image width="128" height="128" source="Platform/Ground_10.png"/>
+  </tile>
+  <tile id="24">
+   <image width="128" height="128" source="Platform/Ground_11.png"/>
+  </tile>
+  <tile id="25">
+   <image width="128" height="128" source="Platform/Ground_12.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="128" source="Platform/Ground_13.png"/>
+  </tile>
+  <tile id="27">
+   <image width="128" height="128" source="Platform/Life.png"/>
+  </tile>
+  <tile id="28">
+   <image width="128" height="64" source="Platform/Rock_03.png"/>
+  </tile>
+  <tile id="29">
+   <image width="128" height="64" source="Platform/Rock_04.png"/>
+  </tile>
+  <tile id="30">
+   <image width="64" height="64" source="Platform/Rock_05.png"/>
+  </tile>
+  <tile id="31">
+   <image width="128" height="128" source="Platform/Sign_01.png"/>
+  </tile>
+  <tile id="32">
+   <image width="128" height="128" source="Platform/Sign_06.png"/>
+  </tile>
+  <tile id="33">
+   <image width="128" height="64" source="Platform/Spikes.png"/>
+  </tile>
+  <tile id="34">
+   <image width="128" height="128" source="Platform/Star.png"/>
+  </tile>
+  <tile id="35">
+   <image width="128" height="128" source="Platform/Wooden_Barrel.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="37" name="tileset3" tilewidth="128" tileheight="128" tilecount="52" columns="4">
+  <image source="Tilemaps/tileset.png" width="512" height="1728"/>
+ </tileset>
+ <layer id="1" name="groundlayer" width="64" height="24">
+  <data encoding="csv">
+   <chunk x="16" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,50,51,52,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,50,51,52,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="32" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,51,51,0,0,0,59,0,0,0,51,43,0,0,0,0,
+0,0,0,0,0,0,51,0,0,0,0,47,42,42,48,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="48" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,44,42,42,43,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,50,51,52,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="0" y="16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,50,51,52,0,0,
+0,0,0,0,0,0,0,50,51,52,0,0,0,0,0,0,
+0,0,0,0,0,60,0,0,0,0,0,0,41,42,0,0,
+0,0,0,0,60,60,0,0,0,0,41,42,45,46,0,0,
+42,42,42,42,42,42,42,42,42,42,45,46,46,46,46,46,
+46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,
+46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="16" y="16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,50,51,52,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,44,51,48,0,0,0,0,0,
+51,0,0,42,42,43,0,0,0,0,0,0,0,0,0,0,
+0,0,0,46,46,47,43,0,0,0,0,0,0,0,41,42,
+46,46,46,46,46,46,47,48,0,0,0,44,42,42,45,46,
+46,46,46,46,46,46,46,0,0,0,0,0,46,46,46,46,
+46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="32" y="16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,41,48,0,0,0,44,42,43,0,0,0,0,0,0,0,
+42,45,0,0,0,0,0,46,47,48,0,0,44,42,42,42,
+46,46,46,46,46,46,46,46,46,0,0,0,0,46,46,46,
+46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,
+46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="48" y="16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,41,42,42,42,42,42,48,0,0,0,0,0,0,0,
+41,42,45,46,46,46,46,46,0,0,0,0,0,0,0,0,
+45,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,
+46,46,46,46,46,46,46,46,0,0,0,0,44,42,42,42,
+46,46,46,46,46,46,46,46,0,0,0,0,0,46,46,46,
+46,46,46,46,46,46,46,46,57,57,57,57,57,46,46,46,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+  </data>
+ </layer>
+ <objectgroup id="7" name="Coins">
+  <object id="285" gid="37" x="4869.33" y="1403.15" width="128" height="128"/>
+  <object id="286" gid="37" x="4605.7" y="2309.21" width="128" height="128"/>
+  <object id="287" gid="37" x="6290.55" y="2430.42" width="128" height="128"/>
+  <object id="288" gid="37" x="5772.36" y="1515.27" width="128" height="128"/>
+  <object id="289" gid="37" x="4336" y="1375.88" width="128" height="128"/>
+  <object id="290" gid="37" x="3978.42" y="2548.61" width="128" height="128"/>
+  <object id="291" gid="37" x="3072.36" y="1775.88" width="128" height="128"/>
+  <object id="292" gid="37" x="1014.79" y="2284.97" width="128" height="128"/>
+  <object id="293" gid="37" x="784.485" y="2684.97" width="128" height="128"/>
+  <object id="294" gid="37" x="7302.67" y="1754.67" width="128" height="128"/>
+  <object id="295" gid="37" x="7948.12" y="2536.48" width="128" height="128"/>
+  <object id="327" x="7936" y="2432" width="128" height="128"/>
+  <object id="328" x="7296" y="1664" width="128" height="128"/>
+  <object id="329" x="6272" y="2304" width="128" height="128"/>
+  <object id="330" x="5760" y="1408" width="128" height="128"/>
+  <object id="331" x="4352" y="1280" width="128" height="128"/>
+  <object id="332" x="4864" y="1280" width="128" height="128"/>
+  <object id="333" x="4608" y="2176" width="128" height="128"/>
+  <object id="334" x="3968" y="2432" width="128" height="128"/>
+  <object id="335" x="3072" y="1664" width="128" height="128"/>
+  <object id="336" x="1024" y="2176" width="128" height="128"/>
+  <object id="337" x="768" y="2560" width="128" height="128"/>
+ </objectgroup>
+ <objectgroup id="8" name="Stacheln">
+  <object id="297" gid="57" x="5248" y="2816" width="128" height="128"/>
+  <object id="298" gid="57" x="5376" y="2816" width="128" height="128"/>
+  <object id="299" gid="57" x="5504" y="2816" width="128" height="128"/>
+  <object id="300" gid="57" x="5632" y="2816" width="128" height="128"/>
+  <object id="301" gid="57" x="6016" y="2560" width="128" height="128"/>
+  <object id="302" gid="57" x="7936" y="2688" width="128" height="128"/>
+  <object id="303" gid="57" x="7424" y="1792" width="128" height="128"/>
+  <object id="304" gid="57" x="4352" y="2688" width="128" height="128"/>
+  <object id="305" gid="57" x="4480" y="2688" width="128" height="128"/>
+  <object id="306" gid="57" x="4608" y="2688" width="128" height="128"/>
+  <object id="307" gid="57" x="4736" y="2688" width="128" height="128"/>
+  <object id="308" gid="57" x="4864" y="2688" width="128" height="128"/>
+  <object id="309" gid="57" x="3456" y="2944" width="128" height="128"/>
+  <object id="310" gid="57" x="3328" y="2944" width="128" height="128"/>
+  <object id="311" gid="57" x="3072" y="2944" width="128" height="128"/>
+  <object id="312" gid="57" x="3200" y="2944" width="128" height="128"/>
+  <object id="313" gid="57" x="2944" y="2944" width="128" height="128"/>
+  <object id="314" gid="57" x="2304" y="2688" width="128" height="128"/>
+  <object id="315" gid="57" x="2176" y="2688" width="128" height="128"/>
+  <object id="316" gid="57" x="2048" y="2688" width="128" height="128"/>
+  <object id="317" gid="57" x="1792" y="2688" width="128" height="128"/>
+  <object id="318" gid="57" x="1920" y="2688" width="128" height="128"/>
+  <object id="320" x="1792" y="2560" width="640" height="128"/>
+  <object id="321" x="2944" y="2816" width="640" height="128"/>
+  <object id="322" x="4352" y="2560" width="640" height="128"/>
+  <object id="323" x="6016" y="2432" width="128" height="128"/>
+  <object id="324" x="5248" y="2688" width="512" height="128"/>
+  <object id="325" x="7424" y="1664" width="128" height="128"/>
+  <object id="326" x="7936" y="2560" width="128" height="128"/>
+  <object id="357" x="7168" y="2944" width="640" height="128"/>
+ </objectgroup>
+ <objectgroup id="9" name="Deko">
+  <object id="339" gid="55" x="128" y="2688" width="128" height="128"/>
+  <object id="340" gid="49" x="1920" y="2560" width="128" height="128"/>
+  <object id="341" gid="53" x="2176" y="2560" width="128" height="128"/>
+  <object id="342" gid="56" x="3200" y="1792" width="128" height="128"/>
+  <object id="343" gid="55" x="4224" y="1408" width="128" height="128"/>
+  <object id="344" gid="39" x="4992" y="2432" width="128" height="128"/>
+  <object id="345" gid="39" x="3456" y="2688" width="128" height="128"/>
+  <object id="353" gid="55" x="6528" y="2304" width="128" height="128"/>
+  <object id="354" gid="55" x="6528" y="1536" width="128" height="128"/>
+  <object id="355" gid="55" x="7680" y="2688" width="128" height="128"/>
+ </objectgroup>
+</map>
